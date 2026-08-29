@@ -11,6 +11,7 @@ data/Set14/
 
 # Trained models (large files)
 models/*.pth
+!models/srresnet_best.pth
 
 # Python cache
 __pycache__/
