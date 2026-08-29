@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Data files (generated locally, not shared via git)
+data/*.npy
+data/*.npz
+data/DIV2K_train_HR/
+data/DIV2K_valid_HR/
+data/Set5/
+data/Set14/
+
+# Trained models (large files)
+models/*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
